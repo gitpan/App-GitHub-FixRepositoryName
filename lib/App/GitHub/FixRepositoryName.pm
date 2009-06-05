@@ -9,11 +9,11 @@ App::GitHub::FixRepositoryName - Fix your .git/config after a repository-name ca
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -33,7 +33,25 @@ the new config (and show it to you first)
 
 =head1 INSTALL
 
+You can install L<App::GitHub::FixRepositoryName> by using L<CPAN>:
+
     cpan -i App::GitHub::FixRepositoryName
+
+If that doesn't work properly, you can find help at:
+
+    http://sial.org/howto/perl/life-with-cpan/
+    http://sial.org/howto/perl/life-with-cpan/macosx/ # Help on Mac OS X
+    http://sial.org/howto/perl/life-with-cpan/non-root/ # Help with a non-root account
+
+=head1 CONTRIBUTE
+
+You can contribute or fork this project via GitHub:
+
+L<http://github.com/robertkrimen/App-GitHub-FixRepositoryName/tree/master>
+
+    git clone git://github.com/robertkrimen/App-GitHub-FixRepositoryName.git
+
+=cut
 
 =head1 USAGE
 
@@ -55,7 +73,11 @@ A commandline application that will fix a given .git/config to have the right re
 
         github-fix-repository-name .git/config
 
-        github-fix-repository-name My-Project1 xyzzy/My-Project2 # You can specify multiple
+        github-fix-repository-name My-Project1 xyzzy/My-Project2 # Fix many at once
+
+=head1 SEE ALSO
+
+L<App::GitHub::FindRepository>
 
 =cut
 

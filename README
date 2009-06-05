@@ -3,7 +3,7 @@ NAME
     repository-name case change
 
 VERSION
-    Version 0.01
+    Version 0.02
 
 SYNOPSIS
         github-fix-repository-name .git/config
@@ -21,7 +21,23 @@ DESCRIPTION
     prompt you before writing out the new config (and show it to you first)
 
 INSTALL
+    You can install App::GitHub::FixRepositoryName by using CPAN:
+
         cpan -i App::GitHub::FixRepositoryName
+
+    If that doesn't work properly, you can find help at:
+
+        http://sial.org/howto/perl/life-with-cpan/
+        http://sial.org/howto/perl/life-with-cpan/macosx/ # Help on Mac OS X
+        http://sial.org/howto/perl/life-with-cpan/non-root/ # Help with a non-root account
+
+CONTRIBUTE
+    You can contribute or fork this project via GitHub:
+
+    <http://github.com/robertkrimen/App-GitHub-FixRepositoryName/tree/master
+    >
+
+        git clone git://github.com/robertkrimen/App-GitHub-FixRepositoryName.git
 
 USAGE
   github-fix-repository-name
@@ -42,7 +58,10 @@ USAGE
 
             github-fix-repository-name .git/config
 
-            github-fix-repository-name My-Project1 xyzzy/My-Project2 # You can specify multiple
+            github-fix-repository-name My-Project1 xyzzy/My-Project2 # Fix many at once
+
+SEE ALSO
+    App::GitHub::FindRepository
 
 AUTHOR
     Robert Krimen, "<rkrimen at cpan.org>"

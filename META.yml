@@ -32,4 +32,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/robertkrimen/App-GitHub-FixRepositoryName/tree/master
-version: 0.01
+version: 0.02
